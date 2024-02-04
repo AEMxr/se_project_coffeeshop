@@ -4,13 +4,10 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
-  font-family: "Noto Serif";
-  font-size: 60px;
-  line-height: 60px;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .recipes {
