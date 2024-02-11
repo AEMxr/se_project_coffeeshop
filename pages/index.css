@@ -50,7 +50,7 @@
   margin: 30px auto auto 30px;
 }
 
-.nav__link {
+.nav__links {
   font-weight: 500;
 
   list-style: none;
@@ -87,7 +87,7 @@
   font-style: normal;
 }
 
-.header__description {
+.header__description-container {
   margin: 0px auto auto 80px;
   max-width: 683px;
 
@@ -98,7 +98,7 @@
   line-height: 30px;
 }
 
-.header__description-line {
+.header__description {
   margin: auto;
   padding: 0px;
 }
@@ -190,7 +190,7 @@
   margin: 80px auto 0px auto;
 }
 
-.recipes__videos-container-youtube {
+.recipes__iframe {
   width: 480px;
   height: 273px;
 }
