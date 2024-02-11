@@ -109,7 +109,6 @@
 }
 
 .header__image {
-  background-image: url(../images/inside_coffee_shop.png);
   height: 568px;
   width: 646px;
   background-size: contain;
