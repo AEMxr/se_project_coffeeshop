@@ -75,11 +75,11 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section class="recipes" id="Recipes">
           <div class="background">
             <!-- background class reserved for animation -->
             <div class="recipes__title">Recipes</div>
-            <div class="recipes__subtitle" id="Recipes">
+            <div class="recipes__subtitle">
               Check out some recipes we've collected for your home-brewing
               convenience:
             </div>
@@ -127,7 +127,51 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="Book_a_table"></section>
+        <section class="reservation" id="Book_a_table">
+          <div class="reservation__title">Book a table</div>
+
+          <div class="reservation__form">
+            <div class="form">
+              <div class="form__fieldset">
+                <label class="form__label" for="name">Name *</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  id="name"
+                  placeholder="Name Surname"
+                />
+
+                <label class="form__label" for="guests"
+                  >Number of guests *</label
+                >
+                <input
+                  type="number"
+                  class="form__input"
+                  id="guests"
+                  min="1"
+                  placeholder="1-8"
+                />
+
+                <label class="form__label" for="date">Date & Time *</label>
+                <input type="datetime-local" class="form__input" id="date" />
+
+                <label class="form__label" for="email">Your email *</label>
+                <input
+                  type="email"
+                  class="form__input"
+                  id="email"
+                  placeholder="email@email.com"
+                />
+
+                <button type="submit" class="form__button">Book a table</button>
+                <div class="form__checkbox-wrap">
+                  <input type="checkbox" class="form__checkbox" id="terms" />
+                  <span for="terms">I agree with the terms of use</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="menu" id="Menu"></section>
         <section class="about" id="About"></section>
       </main>
