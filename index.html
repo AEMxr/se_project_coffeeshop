@@ -78,13 +78,11 @@
         <section class="recipes" id="Recipes">
           <div class="background">
             <!-- background class reserved for animation -->
-            <div class="recipes__title">Recipes</div>
-            <!--change div tag to a header tag-->
-            <div class="recipes__subtitle">
-              <!--change div tag to a header or paragraph tag-->
+            <h2 class="recipes__title">Recipes</h2>
+            <p class="recipes__subtitle">
               Check out some recipes we've collected for your home-brewing
               convenience:
-            </div>
+            </p>
             <div class="recipes__videos">
               <div class="recipes__videos-caption-container">
                 <iframe
@@ -102,8 +100,8 @@
                 >
                 </iframe>
                 <div class="recipes__video-caption-container">
-                  <div class="recipes__video-caption">Aeropress recipe</div>
-                  <div class="recipes__video-caption">~5min</div>
+                  <h3 class="recipes__video-caption">Aeropress recipe</h3>
+                  <h3 class="recipes__video-caption">~5min</h3>
                 </div>
               </div>
               <div class="recipes__videos-container">
@@ -122,58 +120,50 @@
                 >
                 </iframe>
                 <div class="recipes__video-caption-container">
-                  <div class="recipes__video-caption">French press recipe</div>
-                  <!--change div tag to a header tag-->
-                  <div class="recipes__video-caption">~15min</div>
-                  <!--change div tag to a header tag-->
+                  <h3 class="recipes__video-caption">French press recipe</h3>
+                  <h3 class="recipes__video-caption">~15min</h3>
                 </div>
               </div>
             </div>
           </div>
         </section>
         <section class="reservation" id="Book_a_table">
-          <div class="reservation__title">Book a table</div>
-          <!--change div tag to a header tag-->
+          <h2 class="reservation__title">Book a table</h2>
 
-          <div class="reservation__form">
-            <div class="form">
-              <div class="form__fieldset">
-                <label class="form__label" for="name">Name *</label>
-                <input
-                  type="text"
-                  class="form__input"
-                  id="name"
-                  placeholder="Name Surname"
-                />
+          <div class="reservation__form form">
+            <div class="form__fieldset">
+              <label class="form__label" for="name">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                placeholder="Name Surname"
+              />
 
-                <label class="form__label" for="guests"
-                  >Number of guests *</label
-                >
-                <input
-                  type="number"
-                  class="form__input"
-                  id="guests"
-                  min="1"
-                  placeholder="1-8"
-                />
+              <label class="form__label" for="guests">Number of guests *</label>
+              <input
+                type="number"
+                class="form__input"
+                id="guests"
+                min="1"
+                placeholder="1-8"
+              />
 
-                <label class="form__label" for="date">Date & Time *</label>
-                <input type="datetime-local" class="form__input" id="date" />
+              <label class="form__label" for="date">Date & Time *</label>
+              <input type="datetime-local" class="form__input" id="date" />
 
-                <label class="form__label" for="email">Your email *</label>
-                <input
-                  type="email"
-                  class="form__input"
-                  id="email"
-                  placeholder="email@email.com"
-                />
+              <label class="form__label" for="email">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                placeholder="email@email.com"
+              />
 
-                <button type="submit" class="form__button">Book a table</button>
-                <div class="form__checkbox-wrap">
-                  <input type="checkbox" class="form__checkbox" id="terms" />
-                  <span>I agree with the terms of use</span>
-                  <!--for="terms"-->
-                </div>
+              <button type="submit" class="form__button">Book a table</button>
+              <div class="form__checkbox-wrap">
+                <input type="checkbox" class="form__checkbox" id="terms" />
+                <label for="terms">I agree with the terms of use</label>
               </div>
             </div>
           </div>
