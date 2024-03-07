@@ -1,0 +1,54 @@
+.card__container-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__container-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 540px;
+  margin: 100px 0px 0px 0px;
+}
+/* am i supposed to create a new css file for card? also, i can't figure out how to use flexbox layout for this purpose*/
+
+.card:first-of-type {
+  margin: 100px 100px 0px 0px;
+  /* don't know how to use flexbox layout to align cards */
+}
+
+.card:last-of-type {
+  margin: 100px 0px 0px 0px;
+  /* same flexbox as above */
+}
+
+.card__title {
+  margin: 0px 0px 32px 0px;
+  display: flex;
+  justify-content: start;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+}
+
+.card__list-item {
+  margin-top: 16px;
+  /* not sure what you mean by using psuedo-class to reset top margins */
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Noto Serif";
+}
+
+.card__list-divider {
+  border-bottom: solid 2px #838383;
+  margin: 0px 5px;
+  flex-grow: 1;
+}

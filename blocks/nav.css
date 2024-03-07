@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  list-style: none;
+}
+/* so do i need to create a new .css file for nav? */
+
+.nav__logo {
+  height: 39px;
+  width: 105px;
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  justify-content: start;
+  margin: 30px auto auto 30px;
+}
+/* i don't know why content images don't require background styles */
+
+.nav__links {
+  font-weight: 500;
+  list-style: none;
+  display: flex;
+  margin: 30px 20px auto auto;
+  gap: 20px;
+  padding: 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
+/* a:hover {
+  color: #c1c1c1;
+} do i need this hover? */
