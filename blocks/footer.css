@@ -13,8 +13,6 @@
 }
 
 .footer__logo {
-  /* background-repeat: no-repeat; */
-  /* i don't know why content images don't need background styles.  I don't know what it means to be a "content image" */
   background-size: cover;
   width: 105px;
   height: 39px;
@@ -22,22 +20,22 @@
 
 .footer__social-heading {
   font-weight: bold;
+  font-style: normal;
   margin: 0 0 20px;
   display: flex;
   justify-content: end;
 }
-/* set text properties of element according to breif */
+/* I only added font-style: normal because all other text properties are inherited from page. even then front-style: normal should be base style and not needed to be included */
 
 .footer__list {
   list-style-type: none;
   padding: 0;
+  margin: 0 auto;
 }
 
 .footer__list-item {
   margin: 0 0 16px;
-  /* reset bottom margin using pseudo-class */
-  display: flex;
-  align-items: center;
+  /* not sure why i would use a pseudo-class */
 }
 
 .footer__social-icon {
@@ -52,8 +50,9 @@
   display: flex;
   align-items: center;
   transition: color 0.3s ease;
+  text: #fff;
+  text-decoration: none;
 }
-/* set text color and reset default underline style */
 
 .footer__social-link:hover {
   color: #c1c1c1;

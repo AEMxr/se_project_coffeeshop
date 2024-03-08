@@ -21,16 +21,17 @@
 
 .menu__subtitle {
   max-width: 780px;
-  margin: 24px auto 0px;
-
-  font-family: "Noto Serif";
+  margin: 24px auto 0;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
 
 .menu__cards {
   padding-bottom: 100px;
-  max-width: 1180px;
-  /* if i get rid of this, then the spacing isn't to spec */
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
 }

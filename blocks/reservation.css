@@ -5,13 +5,13 @@
   background-repeat: no-repeat;
   background-position: center;
   margin: auto;
-  padding: 0px;
+  padding: 0;
   text-align: center;
 }
 
 .reservation__title {
   padding-top: 100px;
-  margin: 0px auto 80px auto;
+  margin: 0 auto 80px auto;
   text-align: center;
   font-style: normal;
   font-weight: 500;

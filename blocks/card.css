@@ -1,31 +1,9 @@
-.card__container-top {
-  display: flex;
-  justify-content: space-between;
-}
-
-.card__container-bottom {
-  display: flex;
-  justify-content: center;
-}
-
 .card {
   width: 540px;
-  margin: 100px 0px 0px 0px;
-}
-/* am i supposed to create a new css file for card? also, i can't figure out how to use flexbox layout for this purpose*/
-
-.card:first-of-type {
-  margin: 100px 100px 0px 0px;
-  /* don't know how to use flexbox layout to align cards */
-}
-
-.card:last-of-type {
-  margin: 100px 0px 0px 0px;
-  /* same flexbox as above */
 }
 
 .card__title {
-  margin: 0px 0px 32px 0px;
+  margin: 0 0 32px 0;
   display: flex;
   justify-content: start;
   font-weight: bold;
@@ -44,11 +22,11 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .card__list-divider {
   border-bottom: solid 2px #838383;
-  margin: 0px 5px;
+  margin: 0 5px;
   flex-grow: 1;
 }

@@ -31,6 +31,7 @@
   justify-content: center;
   gap: 40px;
   margin: 80px auto 0 auto;
+  padding: 0 0 215px 0;
 }
 
 .recipes__iframe {
@@ -43,14 +44,13 @@
 
 .recipes__video-caption-container {
   margin: 24px 0 0;
-  padding: 0 0 215px 0;
-  display: flex;
   width: 100%;
-  justify-content: space-between;
 }
 
 .recipes__video-caption {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  display: flex;
+  justify-content: space-between;
 }
