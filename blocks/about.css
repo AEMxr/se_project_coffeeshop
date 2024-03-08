@@ -54,11 +54,10 @@
   }
   50% {
     opacity: 0.6;
-    transform: scale(1.12);
-    /*not sure what they mean by moving this transform to the end of the animation*/
+    transform: scale(1);
   }
   100% {
     opacity: 0;
-    transform: scale(1);
+    transform: scale(1.12);
   }
 }

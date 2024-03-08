@@ -7,6 +7,8 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__title {
@@ -53,8 +55,7 @@
 }
 
 .header__footer {
-  margin: 205px 80px 0 80px;
-  /* if i use auto margin, the spacing isn't to brief */
+  margin: auto 80px 0 80px;
   padding: 0 0 40px 0;
   display: flex;
   justify-content: space-between;

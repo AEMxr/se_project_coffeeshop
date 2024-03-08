@@ -18,11 +18,14 @@
 
 .card__list-item {
   margin-top: 16px;
-  /* not sure what you mean by using psuedo-class to reset top margins */
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   font-family: "Noto Serif", "Times New Roman", serif;
+}
+
+.card__list-item:first-of-type {
+  margin-top: 0;
 }
 
 .card__list-divider {
