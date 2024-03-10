@@ -67,12 +67,8 @@
   text-align: left;
 }
 
-.header__footer-address {
-  text-align: right;
-  align-self: flex-end;
-}
-
 .header__paragraph {
   margin: 0;
   list-style: none;
+  align-self: flex-end;
 }

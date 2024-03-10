@@ -35,10 +35,10 @@
         />
 
         <ul class="nav__links">
-          <li><a href="#Recipes">Recipes</a></li>
-          <li><a href="#Book_a_table">Book a table</a></li>
-          <li><a href="#Menu">Menu</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
+          <li><a class="nav__link" href="#Recipes">Recipes</a></li>
+          <li><a class="nav__link" href="#Book_a_table">Book a table</a></li>
+          <li><a class="nav__link" href="#Menu">Menu</a></li>
+          <li><a class="nav__link" href="#Contacts">Contacts</a></li>
         </ul>
       </nav>
 
@@ -63,11 +63,9 @@
           <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
           <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
         </div>
-        <div class="header__footer-address">
-          <p class="header__paragraph">
-            200 Success Avenue, The Town of Triple Peaks
-          </p>
-        </div>
+        <p class="header__paragraph">
+          200 Success Avenue, The Town of Triple Peaks
+        </p>
       </div>
     </header>
 
@@ -79,7 +77,7 @@
           convenience:
         </p>
         <div class="recipes__videos">
-          <div class="recipes__videos-caption-container">
+          <div>
             <iframe
               class="recipes__iframe"
               src="https://www.youtube.com/embed/j6VlT_jUVPc?si=vGAW1P_bt2spysEM"
@@ -99,7 +97,7 @@
               <span>~5min</span>
             </p>
           </div>
-          <div class="recipes__videos-container">
+          <div>
             <iframe
               class="recipes__iframe"
               src="https://www.youtube.com/embed/st571DYYTR8?si=zKrGc47-RB0Xoi4W"
@@ -155,7 +153,7 @@
             />
 
             <button type="submit" class="form__button">Book a table</button>
-            <label for="terms" class="form__label form__checkbox_wrap">
+            <label for="terms" class="form__label form__checkbox-wrap">
               <input type="checkbox" class="form__checkbox" id="terms" />
               I agree with the terms of use</label
             >

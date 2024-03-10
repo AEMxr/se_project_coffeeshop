@@ -20,7 +20,7 @@
 
 .footer__social-heading {
   font-weight: bold;
-  font-style: normal;
+  font-size: 16px;
   margin: 0 0 20px;
   display: flex;
   justify-content: end;
@@ -64,12 +64,12 @@
   display: flex;
   align-items: center;
   transition: color 0.3s ease;
-  text: #fff;
+  color: #fff;
   text-decoration: none;
 }
 
 .footer__social-link:hover {
-  color: #c1c1c1;
+  color: #c1c1c1 !important;
 }
 
 .footer__social-link:visited {

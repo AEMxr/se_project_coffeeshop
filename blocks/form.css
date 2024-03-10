@@ -24,7 +24,7 @@
 .form__input {
   border: 1px #838383 solid;
   border-radius: 4px;
-  height: 54px;
+  height: 60px;
   margin: 8px auto auto auto;
   padding-left: 20px;
   max-width: 385px;
@@ -69,7 +69,7 @@
   font-weight: 500;
 }
 
-.form__checkbox_wrap {
+.form__checkbox-wrap {
   display: flex;
   justify-content: center;
 }
