@@ -14,7 +14,7 @@
   font-weight: 500;
   list-style: none;
   display: flex;
-  margin: 30px 20px auto auto;
+  margin: 30px 80px auto auto;
   gap: 20px;
   padding: 0 0;
 }
@@ -22,4 +22,9 @@
 .nav__link {
   text-decoration: none;
   color: #000;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #2f80ed !important;
 }
